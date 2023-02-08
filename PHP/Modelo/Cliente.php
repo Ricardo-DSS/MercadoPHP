@@ -16,6 +16,19 @@
             $this->quantidadeCompras = $quantidadeCompras;
             $this->totalComprado = $totalComprado;
         }
+        
+        public function getNome(): string{
+            return $this->nome;
+        }
+        public function getTelefone(): string{
+            return $this->telefone;
+        }
+        public function getEndereco(): string{
+            return $this->endereco;
+        }
+        public function getCPF(): string{
+            return $this->CPF;
+        }
 
         public function getQuantidadeCompras(): string{
             return $this->quantidadeCompras;
